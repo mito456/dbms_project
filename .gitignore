@@ -1,0 +1,32 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Docker volume data (if bound locally)
+postgres_data/
+
+# Dependencies & Build artifacts (for future Next.js app)
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Python virtual environments & bytecode
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS Files
+.DS_Store
+Thumbs.db
